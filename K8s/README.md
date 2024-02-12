@@ -1,5 +1,5 @@
 ## EKS Secret
-kubectl create secret generic mssql-secret --from-literal=SA_PASSWORD="example_123"
+kubectl create secret generic mssql-secret --from-literal=SA_PASSWORD="CorrectHorseBatteryStapleFor$"
 
 
 ## Secrets
