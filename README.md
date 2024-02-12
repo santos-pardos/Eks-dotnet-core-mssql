@@ -9,6 +9,7 @@ docker pull santospardos/sanvalero:docker-compose-dotnet-core-and-mssql-app
 ```
 docker run -d --name cloudbeaver --rm -ti -p 80:8978 -v /opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
 ```
+## RDS script
 ```
 CREATE DATABASE [product-db]
 GO
