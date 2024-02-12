@@ -3,5 +3,5 @@ kubectl create secret generic mssql-secret --from-literal=SA_PASSWORD="example_1
 
 
 ## Secrets
-echo -n "example_123" | base64                                                                                                                           
-ZXhhbXBsZV8xMjM=
+echo -n "CorrectHorseBatteryStapleFor$" | base64                                                                                                                           
+Q29ycmVjdEhvcnNlQmF0dGVyeVN0YXBsZUZvciQ=
