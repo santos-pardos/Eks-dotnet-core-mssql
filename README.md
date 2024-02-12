@@ -5,6 +5,11 @@ docker pull santospardos/sanvalero:docker-compose-dotnet-core-and-mssql-db
 docker pull santospardos/sanvalero:docker-compose-dotnet-core-and-mssql-app 
 (80)
 ```
+## DBeaver
+```
+docker run -d --name cloudbeaver --rm -ti -p 80:8978 -v /opt/cloudbeaver/workspace dbeaver/cloudbeaver:latest
+```
+
 ## Docker compose Dotnet Core and Microsoft SQL Server example system 
 
 Example docker-compose system, based on .NET Core project and Microsoft SQL Server database (accessed with _Dapper_).
