@@ -1,8 +1,8 @@
 ## Docker Hub
 ```
-docker pull docker-compose-dotnet-core-and-mssql-db
+docker pull santospardos/sanvalero:docker-compose-dotnet-core-and-mssql-db
 (1433)
-docker pull docker-compose-dotnet-core-and-mssql-app 
+docker pull santospardos/sanvalero:docker-compose-dotnet-core-and-mssql-app 
 (80)
 ```
 ## Docker compose Dotnet Core and Microsoft SQL Server example system 
