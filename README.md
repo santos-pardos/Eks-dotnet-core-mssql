@@ -1,4 +1,11 @@
-# Docker compose Dotnet Core and Microsoft SQL Server example system 
+## Docker Hub
+```
+docker pull docker-compose-dotnet-core-and-mssql-db
+(1433)
+docker pull docker-compose-dotnet-core-and-mssql-app 
+(80)
+```
+## Docker compose Dotnet Core and Microsoft SQL Server example system 
 
 Example docker-compose system, based on .NET Core project and Microsoft SQL Server database (accessed with _Dapper_).
 
