@@ -9,7 +9,7 @@ spec:
     - port: 1433
   selector:
     app: dotnetapp
-    tier: mysql
+    tier: mssql
   clusterIP: None
 ---
 apiVersion: apps/v1 # for versions before 1.9.0 use apps/v1beta2
@@ -22,14 +22,14 @@ spec:
   selector:
     matchLabels:
       app: dotnetapp
-      tier: mysql
+      tier: mssql
   strategy:
     type: Recreate
   template:
     metadata:
       labels:
         app: dotnetapp
-        tier: mysql
+        tier: mssql
     spec:
       terminationGracePeriodSeconds: 10
       securityContext:
